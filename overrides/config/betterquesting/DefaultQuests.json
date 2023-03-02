@@ -32201,13 +32201,12 @@
     },
     "387:10": {
       "preRequisites:11": [
-        414,
         388
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "You that usually means a bad thing, but in this case it is a good thing!\n\nThat\u0027s right you can now make §b§7LV §fcircuits more eeficently! And,and this isn\u0027t even a §eQOL§f chapter! That\u0027s awesome.\n\nWell not too awesome, because these circuits that you just spent the last 3 hours (Or whatever) preparing are going to get used up immediatly for §bMV §fcircuits };\n\nLuckily I will give you a few back as compensation for making this far\n\nThis is how you craft these circuits btw:\n2x §6Resistor§f\n2x §7Diode§f\n2x §6Fine Copper Wire§f\n2x §7Tin Bolt§f\n1x §0§8Integrated Circuit§f\n1x §eBasic Circuit Board§f\n\nYour choice of a soup side:\n1/2 serving §8§f§8soldier alloy\n§f1 serving §7moulten tin\n\n§fPlace all of this in a §7LV §fCircuit Assem and get §2§42x§f in return\n\n§e§fYummy + Nifty + §cRatio\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32219,7 +32218,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "1",
+          "name:8": "Prepare for trouble and make it double!",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -32231,8 +32230,86 @@
         }
       },
       "questID:3": 387,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 623,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 519,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 521,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 2,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_wire_fine"
+            },
+            "3:10": {
+              "Count:3": 2,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_bolt"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 593,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 401,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 623,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "388:10": {
       "preRequisites:11": [
@@ -32241,11 +32318,11 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Yep, thats right, you need to cut down the circuit wafer down to individual boards or something.\n\nLook the silicon wafer of the circuit board is too large for the small circuits that you are making so you need to trim off the fat. Sadly you loose some of the silicon on the way but that is okay.\n\nJust throw the circuit thingy in the cutting machine, I pormise it will be all good\n\nOh and for your info, this item will only be used in two crafts, both of which you are soon to do (If you want to reach §6HV §fthat is).\n\n\n§o*Chris is not responsible for any silcon circuit damages.*",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 568,
+            "Damage:2": 593,
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
@@ -32253,7 +32330,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "I\u0027m going back to my sawcutter",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -32266,7 +32343,42 @@
       },
       "questID:3": 388,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 568,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 593,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "389:10": {
       "preRequisites:11": [
@@ -32275,7 +32387,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The MV Laser Engraver is a complex singleblock machine that is used to§m§f §mattract cats that have trouble catching the red laser dot§f slice down objects (Mainly silicon) down to more refined versions used for advancsive circuit processing. \n\nThe machine is quite expensive and power hungry, but it will provide a tremendous boost towards you accumlation of better circuits + It is required for the §6HV Age §f, which is kinda why this quest exists on this tab.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32287,7 +32399,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "I dare you to shine this laser directly into your eye",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -32299,8 +32411,80 @@
         }
       },
       "questID:3": 389,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:warning_sign_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 622,
+              "OreDict:8": "circuitMv",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_single"
+            },
+            "2:10": {
+              "Count:3": 2,
+              "Damage:2": 173,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 218,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 987,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 561,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "390:10": {
       "preRequisites:11": [
@@ -32311,11 +32495,11 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "They are insanly low voltage because, well, they arn\u0027t circuits! Yet.\n\nSee to make these guys into circuits, they need to be combined with other compants to form the circuit itself, think of this (Integrated circuit) as a mostly built motherboard, and you have to add on the rest of the companats manually.\n\nFor now I think \u00271\u0027 will do, but you will need to make more of these in the future.\n\n§o§c§oUse the Ruby Lens for this!§f\n\n*Since silicon wafers are hard to aquire(quickly) at the moment, please spend your wafers smartly/sparingly as you don\u0027t want to use your one and only §2EBF§f(Unless you made multiple) making another boule because you accidently spent 1 too many wafers.\n\n**Also this uses the laser engraver and takes some time so keep that in cognition.\n\nNow you got me sidetracked, look what you did.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 593,
+            "Damage:2": 568,
             "OreDict:8": "",
             "id:8": "gregtech:meta_item_1"
           },
@@ -32323,7 +32507,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Ultra Insane Low Voltage Circuits (UILV)",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -32335,8 +32519,62 @@
         }
       },
       "questID:3": 390,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 731,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 1000,
+                "display:10": {
+                  "Name:8": "Ultra Insane Low Voltage Circuit"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 371,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 568,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "391:10": {
       "preRequisites:11": [
@@ -32521,7 +32759,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "To be honest, I have seen this icon for this abomination of an object all the time in GregTech and I still have no idea what the §mhell§f heck it even is. It looks almost like a see-through crystal prisim of some sort I have no idea. \n\nAll I know is that you will need §lA-lot§f of silicon, and on top of that you will need a small pile of gallium arsenide(Check Jei for better/more efficent recipes [ You should have more now since you are of §bMV §ftier]).\n\nOh and if that wasn\u0027t enough for you, you also need to spend a good, let me check\n\n450 seconds. Yep that is correct 7.5 minutes!\nThat is pure insanity. You also need over a million EU apparently. Crazy Expensive!!\n\nOh well you will need these (Luckily 1 should hold you off for awhile). \n\nAlso keep in mind that overclocking holds true for multiblocks as well!!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32533,7 +32771,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "What the heck is this??",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -32545,8 +32783,62 @@
         }
       },
       "questID:3": 393,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 351,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust_small"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 99,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 351,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust_small"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 361,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "394:10": {
       "preRequisites:11": [
@@ -32555,7 +32847,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Well that took quite the moment didn\u0027t it?\n\nYea, well hopefully you have read the pointer on the cutting machine quest, because your choice upon the hint really depends on how much longer you are going to be waiting on this quest to complete (It\u0027s not another radicoulous 7.5 minutes nooo).\n\nWell if you have not made any §elubricant.§f Than you are going to have a rough time. (pls don\u0027t take that out of context). What I mean by this is that your cutting saw is going to take 2x as long processing its recipes due to poor lubrication/mobility (That\u0027s not why but like pretend that is why).\n\nAnyway, you still have the silicon boule right? Slap that right into the cutting saw, it would be just 20-40s till you get what you want. \n\nYou shall recive silicon plates(wafers) from the machine, these will be used to be molded into circuitry.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32567,7 +32859,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Regretting your gaming choices?",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -32579,8 +32871,56 @@
         }
       },
       "questID:3": 394,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 371,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 361,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 371,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "395:10": {
       "preRequisites:11": [
@@ -32811,7 +33151,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Although you have made the §7LV §flathe in the past, the §bMV §flathe is far superior as this lathe can make 3 rods with one ingot instead of 2.\n\nWell actually it can\u0027t but hopefully that caught your attenton. \n\nListen up bacuase this is important\n\n\"You have to craft this machine up because I said so\" -Probably some helicopter parent.\n\nWell you heard what someones over protative parent,  go and make the machine. \n\nYou will get rewarded with a steamy hot dinner!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32823,7 +33163,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "More efficient rods",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -32835,8 +33175,91 @@
         }
       },
       "questID:3": 397,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "exnihilocreatio:item_cooked_silkworm",
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "Meatloaf"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_single"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 622,
+              "OreDict:8": "circuitMv",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 173,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 128,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:diamond"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 987,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 441,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "398:10": {
       "preRequisites:11": [
@@ -33181,7 +33604,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "While you are still not quite towards LCD (If that even is a thing in this pack, its GregTech so I would not be surprized in the slightest). \n\nYea not to big of a deal to handle, all you need to do is slap one of those nine §cruby §fplates into the §bMV§f lathe that you have just created [Why else would I have forced you to make one?].\n\nYou will even get some dust back in return, how nice (:",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33193,7 +33616,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Liquid Crystal Display",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33205,8 +33628,56 @@
         }
       },
       "questID:3": 401,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 834,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 311,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 311,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_lens"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "402:10": {
       "preRequisites:11": [
@@ -33511,7 +33982,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "I mean you are literally fusing things together with you fists, did you really think that wasn\u0027t radioactive in the slightest?\n\nWell worry not as Steve(your skin), is the ultimate protaganist that can handle anything, which means he does not give a crap about what happens to the enviornment around him.\n\nWhat you need to do is fuse together some elements to make an overpriced emmitter.\n\n*Note: You have to pay the price in order to progress so just do it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33523,7 +33994,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Emitting too much radiation",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33535,8 +34006,74 @@
         }
       },
       "questID:3": 406,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 217,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 277,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_stick"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_single"
+            },
+            "2:10": {
+              "Count:3": 2,
+              "Damage:2": 622,
+              "OreDict:8": "circuitMv",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 278,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem_flawless"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 218,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "407:10": {
       "preRequisites:11": [
@@ -33545,7 +34082,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Ok that title definatly needs some work, its weird af.\n\nOn the behalf that you have not made any PE (If you don\u0027t know what that is than you didn\u0027t make any), Than you will have to take a slightly-more expensive route. \n\nThat\u0027s okay as it really isn\u0027t too much more expensive. You just need quite a bit of §7tin§f and §8silicon.§b\n\n§f§6To aquire Silicon Sheets you are first going to need to smelt down silicon dust in a EBF to obtain silicon ingots, which can than be pressed down in a metel bender simularly to other ingots.§b\n\n*This quest assumes you don\u0027t have acess to PE\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33557,7 +34094,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Transistor Resistor Sister",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33569,8 +34106,102 @@
         }
       },
       "questID:3": 407,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 518,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 99,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 99,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 99,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_double"
+            },
+            "2:10": {
+              "Count:3": 4,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_single"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 518,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "408:10": {
       "preRequisites:11": [
@@ -33579,7 +34210,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "I mean you prob already have a source §b§boxygen §ffor §6annealed copper §fbut on the offchance that you do not. You will need to have a source of such materials. \n\nSo putting this quest here in case you get confused.\n\nIf you don\u0027t know how to get §6annealed copper §for §boxygen§f, you will have to get demoted to Age 3.5, sorry ):",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33591,7 +34222,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Important Notice: Make sure you have oxygen.",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33603,8 +34234,56 @@
         }
       },
       "questID:3": 408,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 252,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 252,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 252,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_bolt"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "409:10": {
       "preRequisites:11": [
@@ -33613,7 +34292,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "If you ever running a little low on RAM and need a little more, make sure to give that website a visit!\n\nFor all you n00bies that don\u0027t know what RAM means or is:\n\n\"Random Acess Memory\" - You need this in order to do more complicated and more powerful operations that you don\u0027t want to leave to the disk or cpu. \n\nRAM is almost a to Buffer as power is to capictor. \n\nAwesome, now that you know some information that is udderly useless you can now make your RAM wafer Yummy!!\n\n*Note you will need to use the §aEmerald §flens for this.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33625,7 +34304,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Download more ram .com",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33638,7 +34317,42 @@
       },
       "questID:3": 409,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 371,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 567,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "410:10": {
       "preRequisites:11": [
@@ -33647,7 +34361,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Yep this is the last of the last of the last of the laser engraver, before you officially are in HV! Actually I am dumb, I think this quest actually uses the cutting machine.\n\nWell it still holds true as this is your very last use of the cutting machine before you lay your hands upon §6HV§f material. Quite insane really!\n\nI\u0027m not going to walk you through this quest, as I know that you know what you are doing.\n\n+ You will get a hefty §432x§f of RAM per wafer so you will never have to download anymore RAM ever again!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33659,7 +34373,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Just one last step",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33671,8 +34385,56 @@
         }
       },
       "questID:3": 410,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 592,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 567,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 592,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "411:10": {
       "preRequisites:11": [
@@ -33681,7 +34443,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Wait am I tripping rn? Their is a §agreen §fM and M right? Yea their is I remember it being all the colors of the rainbow except for purple so thier must be a §agreen §fcolor. \n\nEven if you like candy and M and M\u0027s that is frankly not the point right now.\n\nYou are already taking forever doing these quests, so come on lets make out first §6HV §fcircuit!\n\nYea, I had a bit of day.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33693,7 +34455,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Cursed M and M",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33705,8 +34467,56 @@
         }
       },
       "questID:3": 411,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 833,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 278,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 278,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_lens"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "412:10": {
       "preRequisites:11": [
@@ -33715,7 +34525,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Not yet.\n\nYep that\u0027s right. §oNot Yet\n\n§fSee with Gregitech almost everything is possible. In fact ther are actually two tipes of uranium plates (Dangerous).\n\nRight now you don\u0027t have to worry about isotopes, so just make the plates so we can get a move on.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33727,7 +34537,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Uranium Plates",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33740,7 +34550,25 @@
       },
       "questID:3": 412,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 9,
+              "Damage:2": 278,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "413:10": {
       "preRequisites:11": [
@@ -33749,7 +34577,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Yes again, go and make yourself a §aemerald block,§f it should be super easy now!\n\n\nEnjoy the only two §aEmerald Ore §fyou will be able to get in the entire pack!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33761,7 +34589,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Oh boy not againn",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33773,17 +34601,65 @@
         }
       },
       "questID:3": 413,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_emerald_0"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:emerald"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:emerald_block"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "414:10": {
       "preRequisites:11": [
-        415
+        387
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Crap that was funnier in my head wasn\u0027t it\n\nAh well.\n\nOk well you have made §7LV§f circuits; great.\n\nYou will now need to upgrade those to §bMV§f tier, and eventually §6HV §ftier. Honestly, this craft at the moment is more of a nusance than anything really. [This is still a much cheaper way of crafting §bMV§f circuits, but right now you shouldn\u0027t be caring about that, go bring your cares to the §eQOL §fpage].\n\nTo make these §bMV§f circuits you need:\n4x §7Silver Bolt§f\n4x §eFine Gold Wire§f\n2x §6Resistor§f Again?\n2x §8Diode§f §fAgain???\n2x §b§7Integrated Logic Circuit §f(Previous Quest)\n1x §6Good Circuit Board\n\n§fIncluding the same soup sides as before\n\nYou should have a net yield of §42x§f §bGood Integrated Circuits\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33795,7 +34671,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "2",
+          "name:8": "Prepare for double and make it trouble",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33807,19 +34683,98 @@
         }
       },
       "questID:3": 414,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 624,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 100,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_bolt"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 41,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_wire_fine"
+            },
+            "2:10": {
+              "Count:3": 2,
+              "Damage:2": 519,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 2,
+              "Damage:2": 521,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 2,
+              "Damage:2": 623,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 402,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 624,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "415:10": {
       "preRequisites:11": [
         410,
         407,
-        408
+        408,
+        414
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Oh does it feel good to finally to have your hands on to craft up a §6HV §fcircuit!\n\nYou have made it this far! I am so happy! Thanks for playing for this long.\n\nTo make up your very first §6HV §fcircuit, you need:\n8x §eFine Electrum Wire§f\n8x §6Annealed Copper Bolt§f\n4x §8Transistor§f\n2x §b§e§f§7Integrated Circuit §f\n2x§7 RAM§f\n2x§b MV Integrated Circuit§f\n\nAnd you guessed it again. You have the same soup/assembler fluids as before.\n\nWhen all of this is combined in an §bLV §fCircuit Assem you will recive §41x §6HV §fCircuit, which isn\u0027t too great, but you have acess to §6HV§f circuits now so I wouldn\u0027t complain.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33831,7 +34786,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "3",
+          "name:8": "The moment you have been waiting/grinding for",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33843,8 +34798,86 @@
         }
       },
       "questID:3": 415,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 625,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 277,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_wire_fine"
+            },
+            "1:10": {
+              "Count:3": 8,
+              "Damage:2": 252,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_bolt"
+            },
+            "2:10": {
+              "Count:3": 4,
+              "Damage:2": 518,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 2,
+              "Damage:2": 593,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 2,
+              "Damage:2": 592,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 2,
+              "Damage:2": 624,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 625,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "416:10": {
       "preRequisites:11": [
@@ -33853,7 +34886,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Trim it down babbbbyyyyyy\nTrim it \nTrim it\nbut not to far\nor you won\u0027t get far\nso long my friend\nthis is the end\nof this quest\n\n\nHow did you like the song?\n\nYea I thought it was §mreally good§f horrible as well\n*Sobs silently*",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33865,7 +34898,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Power V: GregTech Edition",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33877,17 +34910,70 @@
         }
       },
       "questID:3": 416,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 10,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_single"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 577,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 602,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "417:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
       "preRequisites:11": [
-        418
+        418,
+        394
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Have you heard of 24 hour energy? Well how about BeVita 4 hour energy snack bars? This wafer right here is a combination of the two, see if you were to eat the wafer you would §mdie horribly§f have some horrible intestinal issues, so don\u0027t do it.\n\nWhat you can do is actually do what you are supposed to do for this quest and throw the vinilla wafer(not the flaver hungry man) and pair that with the §b§o§1§oBloopie/Sapphire Lens§f and you should recive what you want!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33899,7 +34985,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Power Wafers",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33912,7 +34998,42 @@
       },
       "questID:3": 417,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 371,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 577,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "418:10": {
       "preRequisites:11": [
@@ -33921,7 +35042,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "I really,really,really,really hoped you crafted up the §bMV §flathe from a quest on this Age or else you are going to have a fun time of not being able to complete this quest.\n\nAll you literally need to do is just put one of the nine plates you got into the lathe and you should get what you need for this quest. You even get some of the dust back!\n\nQUEST COMPLETE\n\n...Hopefully\n\nOH CRAP, there are called §1bloopie §flens, I completly forgot, my badd",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33933,7 +35054,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Blue Ender Eyes",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33945,8 +35066,56 @@
         }
       },
       "questID:3": 418,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 831,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 314,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 314,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_lens"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "419:10": {
       "preRequisites:11": [
@@ -33955,7 +35124,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "I have no idea how to create a creative name for this ore combining §4ruby §fand §aemerald§f so I decided to stick with §3§1bloopie §finstead. \n\n§1Bloopie §fore is made up of: §mBlueberries.§f Moderely precious §1blue §o§fores. This means that you are going to have to go through some of your §3§baluminium§f and some of your §3lapis §fas well, so hopefully you have some in stock.\n\nThis will most likely be the first and the last time you will need to craft up this ore.\n\n§l§bBTW This is ore§l is great§b for oxygen, so if you ever are running low on the very thing you breathe, you are in luck",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33967,7 +35136,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "sapp",
+          "name:8": "Bloopie Ore",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33979,8 +35148,68 @@
         }
       },
       "questID:3": 419,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 12,
+              "Damage:2": 314,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_crushed"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "compressedcobble_mod:c_cobble"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:lapis_block"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 48,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_sapphire_0"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "420:10": {
       "preRequisites:11": [
@@ -33989,7 +35218,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "It really isn\u0027t that difficult to craft, you literlly just need to smelt up 9 of the ores from the last quest and make a block with the §1bloopies§f.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34001,7 +35230,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Bloopie Block",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -34013,8 +35242,44 @@
         }
       },
       "questID:3": 420,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 314,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem",
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "Bloopie"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_block_compressed_19"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "421:10": {
       "preRequisites:11": [
@@ -34023,7 +35288,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "You know the drill (Unless you havn\u0027t done the §cruby §fone yet).\n\nJust toss the block of §1bloopie §finto a §bMV+ §fsawmill. (You SHOULD have this). \n\nOh and if you are wondering how to pronouce §3§1bloopie:\n\nBlue - pee. §fYep, veru creative. \n\nDon\u0027t get a chuckly just because I said the word §epee§f.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34035,7 +35300,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Bloopie Plates",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -34048,7 +35313,25 @@
       },
       "questID:3": 421,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 9,
+              "Damage:2": 314,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "422:10": {
       "preRequisites:11": [],
@@ -35490,7 +36773,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Awesome since you now have circuits all you need to do is make 1 machine hall and you are officially gradated from §bMV§f!\n\nMaking the §6HV §fcase can be quite expensive at first, but you are just going to have to deal with it.\n\nAlso if you have not made any PE (If you don\u0027t know what that is than you didn\u0027t make any), you are going to need to craft up the more expensive machine hull, but either will work. \n\n§oThis quest assumes that you have not crafted up PE.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35514,8 +36797,108 @@
         }
       },
       "questID:3": 439,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine_casing"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 323,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine_casing"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 323,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate_double"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 1068,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            },
+            "2:10": {
+              "Count:3": 2,
+              "Damage:2": 41,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_double"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine_casing"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 988,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "440:10": {
       "preRequisites:11": [
@@ -35524,7 +36907,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Awesome work! I knew you can make it\n\nNow you are open to try out progressing to the next age or to work on the §f§eQOL §fquests.\n\n*Note: I really reccomend you try out the §f§eQOL §fquests as they will come in handy, and make your life going through this pack so, so, much better.\n\nEnjoy the reward. \n\nYou deserve it chad",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35548,8 +36931,62 @@
         }
       },
       "questID:3": 440,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 625,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 624,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 6,
+              "Damage:2": 623,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 10,
+              "Damage:2": 371,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 16,
+              "Damage:2": 128,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 16,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_single"
+            },
+            "6:10": {
+              "Count:3": 18,
+              "Damage:2": 424,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_single"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "441:10": {
       "preRequisites:11": [],
@@ -35646,6 +37083,63 @@
       "questID:3": 443,
       "rewards:9": {},
       "tasks:9": {}
+    },
+    "444:10": {
+      "preRequisites:11": [
+        440
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "I am sorry to say, but this is all I have for you. \n\nThis does not mean that the pack is done, no no, I am working on the next update as you are reading this (So long as I did not give up)\n\nBut anyways, thank you for playing this pack and making it this far!\n\nHope to see you in v0.65a!!\n\n-Chris The Questbookguy",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterquesting:placeholder"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Looking for more??",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 444,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 93,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "Drink of completion (Thanks for Pla"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -38991,6 +40485,13 @@
           "sizeY:3": 48,
           "x:3": 408,
           "y:3": -96
+        },
+        "55:10": {
+          "id:3": 444,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 468,
+          "y:3": -90
         }
       }
     },
@@ -39389,7 +40890,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,

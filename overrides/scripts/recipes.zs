@@ -6,6 +6,10 @@ recipes.removeShaped(<gregtech:ore_cassiterite_0>, [[<gregtech:meta_ingot:112>, 
 recipes.removeShapeless(<minecraft:diamond>, []);
 //Don't touch me!
 //#Add
+recipes.addShaped(<gregtech:stone_smooth:2>, [[null, null, null],[null, <minecraft:stone>, <minecraft:stone>], [null, null, null]]);
+recipes.addShaped(<gregtech:stone_smooth>, [[null, null, null],[<minecraft:stone>, <minecraft:stone>, null], [null, null, null]]);
+recipes.addShaped(<gregtech:stone_smooth:1>, [[null, <minecraft:stone>, <minecraft:stone>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<gregtech:stone_smooth:3>, [[<minecraft:stone>, <minecraft:stone>, null],[null, null, null], [null, null, null]]);
 recipes.addShaped(<gregtech:ore_zeolite_0> * 40, [[<compressedcobble_mod:c_cobble>, <gregtech:meta_item_1:128>, <compressedcobble_mod:c_cobble>],[<gregtech:meta_dust:395>, <gregtech:meta_plate_double:51>, <gregtech:meta_dust:395>], [<compressedcobble_mod:c_cobble>, <gregtech:meta_item_1:128>, <compressedcobble_mod:c_cobble>]]);
 recipes.addShaped(<gregtech:ore_vanadium_magnetite_0> * 26, [[<gregtech:meta_dust:1597>, <compressedcobble_mod:c_cobble>, <gregtech:meta_dust:1597>],[<compressedcobble_mod:c_cobble>, <gregtech:meta_block_compressed_20:4>, <compressedcobble_mod:c_cobble>], [<gregtech:meta_dust:1597>, <compressedcobble_mod:c_cobble>, <gregtech:meta_dust:1597>]]);
 recipes.addShaped(<gregtech:ore_sapphire_0> * 48, [[<gregtech:meta_ingot:2>, <compressedcobble_mod:c_cobble>, <gregtech:meta_ingot:2>],[<compressedcobble_mod:c_cobble>, <minecraft:lapis_block>, <compressedcobble_mod:c_cobble>], [<gregtech:meta_ingot:2>, <compressedcobble_mod:c_cobble>, <gregtech:meta_ingot:2>]]);
