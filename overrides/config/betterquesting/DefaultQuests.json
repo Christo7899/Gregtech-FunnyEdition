@@ -5714,7 +5714,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Pls hand them over, I will give you what you need for the next quest, just give me those premium §4Firebrick.zip §ffiles, I really need them.\n\nPleassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssse",
+          "desc:8": "Pls hand them over, I will give you what you need for the next quest, just give me those premium §4Firebrick.zip §ffiles, I really need them.\n\nPleassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssse\n\n§7§6*Extract the file given in the *Center* of a crafting bench!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5740,14 +5740,19 @@
       "questID:3": 64,
       "rewards:9": {
         "0:10": {
-          "index:3": 0,
+          "index:3": 1,
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 33,
-              "Damage:2": 1,
+              "Count:3": 1,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:metal_casing"
+              "id:8": "contenttweaker:winwar",
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "Blast Furnace.zip"
+                }
+              }
             }
           }
         }
@@ -15817,7 +15822,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This is the best, this is the best, you passed the test, and now your the best (:\n\nNo really you are!\n\nYou can now make up to §b6x §fVaccum tubes at once, which is better than the orginal(Way back in Age 2 where you had to craft them up one at a time.)\n\nWay to up your §cRATIO, §flets make §66 circuits §fto celebrate!\n\nAll you need now is:\n4x §6Annealed copper wire§f\n2x Glass tube\n2x §8Steel Bolt§f\n1/4 of §4Red Alloy Ingot(Liquid)\n\n§fAll this for a grand total of §b8x §fVaccum Tubes!",
+          "desc:8": "This is the best, this is the best, you passed the test, and now your the best (:\n\nNo really you are!\n\nYou can now make up to §b6x §fVaccum tubes at once, which is better than the orginal(Way back in Age 2 where you had to craft them up one at a time.)\n\nWay to up your §cRATIO, §flets make §66 circuits §fto celebrate!\n\nAll you need now is:\n4x §6Annealed copper wire§f\n2x Glass tube\n2x §8Steel Bolt§f\n1/4 of §4Red Alloy Ingot(Liquid)\n\n§fAll this for a grand total of §b16x §fVaccum Tubes!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15887,7 +15892,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 8,
+              "Count:3": 16,
               "Damage:2": 516,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
@@ -15905,7 +15910,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This is the best, this is the best, you passed the test, and now your the best (:\n\nNo really you are!\n\nYou can now make up to §b4x §fResistors at once, which is better than the orginal(Way back in Age 2 where you had to craft them up two at a time.)\n\nWay to up your §cRATIO, §flets make §66 circuits §fto celebrate!\n\nAll you need now is:\n8x §6Fine Annealed Copper wire§f\n2x §8[Char]coal dust \n§e200L of Glue\n\n§fAll this for a grand total of §b8x §fResistors!",
+          "desc:8": "This is the best, this is the best, you passed the test, and now your the best (:\n\nNo really you are!\n\nYou can now make up to §b8x §fResistors at once, which is better than the orginal(Way back in Age 2 where you had to craft them up two at a time.)\n\nWay to up your §cRATIO, §flets make §66 circuits §fto celebrate!\n\nAll you need now is:\n8x §6Fine Annealed Copper wire§f\n2x §8[Char]coal dust \n§e200L of Glue\n\n§fAll this for a grand total of §b16x §fResistors!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22200,7 +22205,7 @@
               }
             },
             "2:10": {
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 78,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1",
@@ -32495,7 +32500,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "They are insanly low voltage because, well, they arn\u0027t circuits! Yet.\n\nSee to make these guys into circuits, they need to be combined with other compants to form the circuit itself, think of this (Integrated circuit) as a mostly built motherboard, and you have to add on the rest of the companats manually.\n\nFor now I think \u00271\u0027 will do, but you will need to make more of these in the future.\n\n§o§c§oUse the Ruby Lens for this!§f\n\n*Since silicon wafers are hard to aquire(quickly) at the moment, please spend your wafers smartly/sparingly as you don\u0027t want to use your one and only §2EBF§f(Unless you made multiple) making another boule because you accidently spent 1 too many wafers.\n\n**Also this uses the laser engraver and takes some time so keep that in cognition.\n\nNow you got me sidetracked, look what you did.",
+          "desc:8": "They are insanly low voltage because, well, they arn\u0027t circuits! Yet.\n\nSee to make these guys into circuits, they need to be combined with other compants to form the circuit itself, think of this (Integrated circuit) as a mostly built motherboard, and you have to add on the rest of the companats manually.\n\nFor now I think \u00272\u0027 will do, but you will need to make more of these in the future.\n\n§o§c§oUse the Ruby Lens for this!§f\n\n*Since silicon wafers are hard to aquire(quickly) at the moment, please spend your wafers smartly/sparingly as you don\u0027t want to use your one and only §2EBF§f(Unless you made multiple) making another boule because you accidently spent 1 too many wafers.\n\n**Also this uses the laser engraver and takes some time so keep that in cognition.\n\nNow you got me sidetracked, look what you did.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32566,7 +32571,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 568,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
@@ -32847,7 +32852,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Well that took quite the moment didn\u0027t it?\n\nYea, well hopefully you have read the pointer on the cutting machine quest, because your choice upon the hint really depends on how much longer you are going to be waiting on this quest to complete (It\u0027s not another radicoulous 7.5 minutes nooo).\n\nWell if you have not made any §elubricant.§f Than you are going to have a rough time. (pls don\u0027t take that out of context). What I mean by this is that your cutting saw is going to take 2x as long processing its recipes due to poor lubrication/mobility (That\u0027s not why but like pretend that is why).\n\nAnyway, you still have the silicon boule right? Slap that right into the cutting saw, it would be just 20-40s till you get what you want. \n\nYou shall recive silicon plates(wafers) from the machine, these will be used to be molded into circuitry.",
+          "desc:8": "Well that took quite the moment didn\u0027t it?\n\nYea, well hopefully you have read the pointer on the cutting machine quest, because your choice upon the hint really depends on how much longer you are going to be waiting on this quest to complete (It\u0027s not another radicoulous 7.5 minutes nooo).\n\nWell if you have not made any §elubricant.§f Than you are going to have a rough time. (pls don\u0027t take that out of context). What I mean by this is that your cutting saw is going to take 2x as long processing its recipes due to poor lubrication/mobility (That\u0027s not why but like pretend that is why).\n\nAnyway, you still have the silicon boule right? Slap that right into the cutting saw, it would be just 15-30s till you get what you want. \n\nYou shall recive silicon plates(wafers) from the machine, these will be used to be molded into circuitry.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33604,7 +33609,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "While you are still not quite towards LCD (If that even is a thing in this pack, its GregTech so I would not be surprized in the slightest). \n\nYea not to big of a deal to handle, all you need to do is slap one of those nine §cruby §fplates into the §bMV§f lathe that you have just created [Why else would I have forced you to make one?].\n\nYou will even get some dust back in return, how nice (:",
+          "desc:8": "While you are still not quite towards LCD (If that even is a thing in this pack, its GregTech so I would not be surprized in the slightest). \n\nYea not to big of a deal to handle, all you need to do is slap one of those nine §cruby §fplates into the §bMV§f lathe that you have just created [Why else would I have forced you to make one?].\n\nYou will even get some dust back in return, how nice (:\n\nIt also uses a ton of power ):",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34344,7 +34349,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 567,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
@@ -35025,7 +35030,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 577,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
@@ -36546,7 +36551,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No, it isn\u0027t...\n\nYou will need to get some flint and convert your string meshes all the way to flint stiffined meshes. Flint can be gathered by hammering cobble and by repeatingly breaking down flint with a shovel/fist until a piece of flint pops out. OR/OR you can use a mortar if you have crafted one already.",
+          "desc:8": "No, it isn\u0027t...\n\nYou will need to get some flint and convert your string meshes all the way to flint stiffined meshes. Flint can be gathered by hammering cobble and by repeatingly breaking down gravel with a shovel/fist until a piece of flint pops out. OR/OR you can use a mortar if you have crafted one already.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37140,6 +37145,251 @@
           "taskID:8": "bq_standard:checkbox"
         }
       }
+    },
+    "445:10": {
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Yea sorry about that. Bloom is off by default for this pack to run on potatoes sorry. ):\n\nBTW (Bloom is the glowing that you typically get for GTCEu machines. They are a nice QOL visual feature that makes your machines look more immersive.)\n\nThe reasoning for disabling bloom is due to a huge dip in performance [at least for me], see I can run 160+ fps nice and smoth without the bloom, but as soon as I turn it on my computer can hardly get 70+ Fps which is less than HALF for my performance. So for all my integrated graphics people, I would keep the setting off.\n\nIf you do want the bloom effect on (It\u0027s pretty), than you have to change the config ingame [It updates in realtime]\n\nGo to:\n\n§6Esc --\u003e Mod Options --\u003e Type \u0027Greg\u0027 --\u003e Click on GregTech (Not gregicality multiblocks) --\u003e Click on client option --\u003e Shader options --\u003e emmisivetexturebloom : Turn this from §4false§6 to §a§2true.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Where are my emmisive/bloom textures?",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 445,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "446:10": {
+      "preRequisites:11": [
+        52
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "With the compressor you can now automatically compress all of your cobble to the compressed versions!\n\nThis is great for batchcrafting up compressed cobble in order to get easy resources (namely, coal;copper;tin;iron).\n\nEnjoy the upgrade!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "compressedcobble_mod:c_cobble3"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Auto Compression",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 446,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "compressedcobble_mod:c_cobble"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:cobblestone"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "compressedcobble_mod:c_cobble"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "compressedcobble_mod:c_cobble2"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "447:10": {
+      "preRequisites:11": [
+        330
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "just incase you want to get miscellanious byproducts from an ore, you can craft up this machine in order to do so(Since this is§f a §bMV§e §fthis means that most recipes will get overclocked to 3x speed!\n\nHowerver there is one drawback to this machine, you need special fluids in order to get this byproducts to work(or to get this machine working in general). \n\nU will either need a source for §cmercury §for §3Sodium Persulfate§f which I reccomend you make the §b§cmercury §fas you can eaisly derive it from §4redstone§f",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 201,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Unsafe Bathing",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 447,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 80,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 6000,
+                  "FluidName:8": "mercury"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 622,
+              "OreDict:8": "circuitMv",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 158,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:glass"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_single"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 143,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 987,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 201,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -37490,6 +37740,13 @@
           "sizeY:3": 48,
           "x:3": -84,
           "y:3": -24
+        },
+        "47:10": {
+          "id:3": 445,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 312,
+          "y:3": 36
         }
       }
     },
@@ -37987,6 +38244,13 @@
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": -48
+        },
+        "68:10": {
+          "id:3": 446,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 84
         }
       }
     },
@@ -38265,7 +38529,7 @@
     },
     "3:10": {
       "lineID:3": 3,
-      "order:3": 9,
+      "order:3": 10,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -39336,7 +39600,7 @@
     },
     "7:10": {
       "lineID:3": 7,
-      "order:3": 11,
+      "order:3": 12,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -40079,12 +40343,19 @@
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -48
+        },
+        "24:10": {
+          "id:3": 447,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": -132
         }
       }
     },
     "10:10": {
       "lineID:3": 10,
-      "order:3": 8,
+      "order:3": 9,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -40497,7 +40768,7 @@
     },
     "11:10": {
       "lineID:3": 11,
-      "order:3": 10,
+      "order:3": 11,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -40886,11 +41157,39 @@
           "y:3": -204
         }
       }
+    },
+    "12:10": {
+      "lineID:3": 12,
+      "order:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "If you want your Quality of Life for gregtech §7§bMV§f age to be much better I would follow this quest line.",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 624,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Age 5.5-MV QOL",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 335,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -24,
+          "y:3": -24
+        }
+      }
     }
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,

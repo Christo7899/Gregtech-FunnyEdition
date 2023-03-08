@@ -1,0 +1,36 @@
+
+item.contenttweaker.circuitprocessorexotic.name=Exotic Processor
+item.contenttweaker.circuitassemblyexotic.name=Exotic Assembly
+item.contenttweaker.circuitcomputerexotic.name=Exotic Computer
+item.contenttweaker.circuitmainframeexotic.name=Exotic Mainframe
+
+item.contenttweaker.circuitprocessoroptical.name=Optical Processor
+item.contenttweaker.circuitassemblyoptical.name=Optical Assembly
+item.contenttweaker.circuitcomputeroptical.name=Optical Computer
+item.contenttweaker.circuitmainframeoptical.name=Optical Mainframe
+
+item.contenttweaker.circuitbiowareprocessor.name=Bioware Processor
+item.contenttweaker.circuitbiowareassembly.name=Bioware Assembly
+item.contenttweaker.circuitbiowarecomputer.name=Bioware Computer
+item.contenttweaker.circuitbiowaremainframe.name=Bioware Mainframe
+
+item.contenttweaker.circuitcosmicprocessor.name=Cosmic Processor
+item.contenttweaker.circuitcosmicassembly.name=Cosmic Assembly
+item.contenttweaker.circuitcosmiccomputer.name=Cosmic Computer
+item.contenttweaker.circuitcosmicmainframe.name=Cosmic Mainframe
+
+item.contenttweaker.circuitmittensprocessor.name=Mittens Processor
+item.contenttweaker.circuitmittensassembly.name=Mittens Assembly
+item.contenttweaker.circuitmittenscomputer.name=Mittens Computer
+item.contenttweaker.circuitmittensmainframe.name=Mittens Mainframe
+
+item.contenttweaker.mittens.name=Mittens
+item.contenttweaker.sporkcircuit.name=Spork Circuit
+item.contenttweaker.winwar.name=WinWar
+item.contenttweaker.steamm.name=Steam Motor
+item.contenttweaker.steamp.name=Steam Piston
+
+item.contenttweaker.mingot.name=Mittens Ingot
+item.contenttweaker.mplate.name=Mittens Plate
+tile.contenttweaker.mcasing.name=Mittens Machine Casing
+tile.contenttweaker.mhull.name=Mittens Machine Hull

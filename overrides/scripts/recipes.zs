@@ -1,11 +1,19 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShaped(<contenttweaker:sporkcircuit>, [[<gregtech:meta_wire_fine:25>, <gregtech:meta_item_1:623>, <gregtech:meta_wire_fine:25>],[<gregtech:meta_item_1:381>, <gregtech:meta_item_1:624>, <gregtech:meta_item_1:381>], [<gregtech:meta_wire_fine:25>, <gregtech:meta_item_1:623>, <gregtech:meta_wire_fine:25>]]);
+recipes.removeShaped(<gregtech:machine:2027>, [[<gregtech:fluid_pipe_small:2037>, <gregtech:meta_plate:259>, <gregtech:fluid_pipe_small:2037>],[<gregtech:meta_plate:259>, <gcym:large_multiblock_casing:12>, <gregtech:meta_plate:259>], [<gregtech:meta_gear_small:260>, <gregtech:meta_gear:324>, <gregtech:meta_gear_small:260>]]);
 recipes.removeShaped(<gregtech:ore_pyrolusite_0>, [[<gregtech:meta_ingot:252>, <compressedcobble_mod:c_cobble2>, <gregtech:meta_ingot:252>],[<gregtech:meta_item_1:521>, <gregtech:meta_block_compressed_20:4>, <gregtech:meta_item_1:521>], [<gregtech:meta_ingot:252>, <compressedcobble_mod:c_cobble2>, <gregtech:meta_ingot:252>]]);
 recipes.removeShaped(<gregtech:ore_cassiterite_0>, [[<gregtech:meta_ingot:112>, <gregtech:meta_ingot:328>, <gregtech:meta_ingot:112>],[<gregtech:meta_ingot:328>, <compressedcobble_mod:c_cobble2>, <gregtech:meta_ingot:328>], [<gregtech:meta_ingot:112>, <gregtech:meta_ingot:328>, <gregtech:meta_ingot:112>]]);
 recipes.removeShapeless(<minecraft:diamond>, []);
 //Don't touch me!
 //#Add
+recipes.addShaped(<contenttweaker:sporkcircuit> * 2, [[<gregtech:meta_wire_fine:25>, <gregtech:meta_item_1:623>, <gregtech:meta_wire_fine:25>],[<gregtech:meta_item_1:381>, <gregtech:meta_item_1:624>, <gregtech:meta_item_1:381>], [<gregtech:meta_wire_fine:25>, <gregtech:meta_item_1:623>, <gregtech:meta_wire_fine:25>]]);
+recipes.addShaped(<contenttweaker:mcasing>, [[<contenttweaker:mplate>, <contenttweaker:mplate>, <contenttweaker:mplate>],[<contenttweaker:mplate>, null, <contenttweaker:mplate>], [<contenttweaker:mplate>, <contenttweaker:mplate>, <contenttweaker:mplate>]]);
+recipes.addShaped(<gregtech:metal_casing:1> * 33, [[null, null, null],[null, <contenttweaker:winwar>, null], [null, null, null]]);
+recipes.addShaped(<gregtech:machine:2027>, [[<gregtech:fluid_pipe_small:2037>, <contenttweaker:steamp>, <gregtech:fluid_pipe_small:2037>],[<gcym:large_multiblock_casing:12>, <contenttweaker:sporkcircuit>, <gcym:large_multiblock_casing:12>], [<contenttweaker:steamm>, <gregtech:meta_gear_small:260>, <contenttweaker:steamm>]]);
+recipes.addShaped(<contenttweaker:steamp>, [[<gregtech:meta_plate:51>, <gregtech:meta_plate:51>, <gregtech:meta_plate:51>],[<gregtech:meta_bolt:260>, <gregtech:meta_stick:335>, <gregtech:meta_stick:335>], [<gregtech:meta_bolt:260>, <contenttweaker:steamm>, <gregtech:meta_gear_small:260>]]);
+recipes.addShaped(<contenttweaker:steamm>, [[<gregtech:meta_bolt:260>, <gregtech:meta_plate:25>, <gregtech:meta_stick:51>],[<gregtech:meta_plate:25>, <gregtech:meta_stick:51>, <gregtech:meta_plate:25>], [<gregtech:meta_stick:51>, <gregtech:meta_plate:25>, <gregtech:meta_bolt:260>]]);
 recipes.addShaped(<gregtech:stone_smooth:2>, [[null, null, null],[null, <minecraft:stone>, <minecraft:stone>], [null, null, null]]);
 recipes.addShaped(<gregtech:stone_smooth>, [[null, null, null],[<minecraft:stone>, <minecraft:stone>, null], [null, null, null]]);
 recipes.addShaped(<gregtech:stone_smooth:1>, [[null, <minecraft:stone>, <minecraft:stone>],[null, null, null], [null, null, null]]);
